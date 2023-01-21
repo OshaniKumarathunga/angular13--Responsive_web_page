@@ -1,0 +1,49 @@
+#docsection {
+    height: 750px;
+    background: url("../../assets/img/doc1.png");
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.doctor {
+    position: absolute;
+    width: 608px;
+    height: 376px;
+    left: 86px;
+    top: 282px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.card1{
+position: absolute;
+width: 482px;
+left: 66px;
+top: 94px;
+}
+
+.card2{
+position: absolute;
+width: 428px;
+height: 106px;
+left: 344px;
+top: 97px;
+}
+mat-card{
+    margin: 20px;
+}
+mat-card-title.span{
+    font-size: 20px;
+}
+
+.patientDoc {
+    position: relative;
+}
+
+.iamDoc {}
+
+mat-divider{
+    /* margin-top: 20px; */
+
+}
