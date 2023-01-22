@@ -9,34 +9,28 @@
 
 .doctor {
     position: absolute;
-    width: 608px;
-    height: 376px;
-    left: 86px;
-    top: 282px;
     background: #FFFFFF;
     border-radius: 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-content: center;
+    margin-left: 100px;
+
 }
 .card1{
-position: absolute;
-width: 482px;
-left: 66px;
-top: 94px;
+    position: relative;
+    /* top , right , bottom , left */
+    margin: 20px 40px 20px 20px;
 }
 
 .card2{
-position: absolute;
-width: 428px;
-height: 106px;
-left: 344px;
-top: 97px;
-}
-mat-card{
-    margin: 20px;
-}
-mat-card-title.span{
-    font-size: 20px;
-}
+    position: relative;
+     /* top , right , bottom , left */
+    margin: 20px 20px 20px 40px;
 
+}
 .patientDoc {
     position: relative;
 }
@@ -44,6 +38,9 @@ mat-card-title.span{
 .iamDoc {}
 
 mat-divider{
-    /* margin-top: 20px; */
-
+   height:200px;
+   background-color: black;
+}
+button{
+    
 }
