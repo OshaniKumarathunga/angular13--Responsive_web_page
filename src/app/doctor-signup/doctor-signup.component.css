@@ -56,7 +56,11 @@ td {
     padding: auto;
 }
 
-#button{
+/* change the button size */
+.nextbutton{
+    /* width: 10em; */
+    width: 150px;
+    height: auto;
     
 }
 

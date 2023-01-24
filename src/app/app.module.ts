@@ -16,6 +16,8 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { DoctorComponent } from './doctor/doctor.component';
 import { DoctorSignupComponent } from './doctor-signup/doctor-signup.component';
 import { DoctorSignupNextComponent } from './doctor-signup-next/doctor-signup-next.component';
+import { LoginComponent } from './login/login.component';
+import { ChildComponent } from './login/child/child.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { DoctorSignupNextComponent } from './doctor-signup-next/doctor-signup-ne
     MainNavComponent,
     DoctorComponent,
     DoctorSignupComponent,
-    DoctorSignupNextComponent
+    DoctorSignupNextComponent,
+    LoginComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
