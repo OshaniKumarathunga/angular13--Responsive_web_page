@@ -15,13 +15,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { DoctorComponent } from './doctor/doctor.component';
 import { DoctorSignupComponent } from './doctor-signup/doctor-signup.component';
+import { DoctorSignupNextComponent } from './doctor-signup-next/doctor-signup-next.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainNavComponent,
     DoctorComponent,
-    DoctorSignupComponent
+    DoctorSignupComponent,
+    DoctorSignupNextComponent
   ],
   imports: [
     BrowserModule,

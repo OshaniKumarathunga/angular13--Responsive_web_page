@@ -56,16 +56,7 @@ td {
     padding: auto;
 }
 
-#button{
-    
-}
-
-/* ::ng-deep mat-raised-button{
-
-    font-size: 105px;
-    line-height: 18px;
-
-} */
+mat-raised-button {}
 
 ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
     background-color: #F8F7F7;
