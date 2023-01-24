@@ -56,7 +56,7 @@ td {
     padding: auto;
 }
 
-/* change the button size */
+/* change the mat-raised-button size */
 .nextbutton{
     /* width: 10em; */
     width: 150px;
@@ -64,13 +64,7 @@ td {
     
 }
 
-/* ::ng-deep mat-raised-button{
-
-    font-size: 105px;
-    line-height: 18px;
-
-} */
-
+/* change the mat-field background colour */
 ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
     background-color: #F8F7F7;
 }
