@@ -10,6 +10,7 @@ import 'hammerjs';
 
 // Angular material
 import { MaterialModule } from './material/material.module';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MainNavComponent } from './main-nav/main-nav.component';
@@ -37,6 +38,9 @@ import { ChildComponent } from './login/child/child.component';
     MaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    LoginComponent
+]
 })
 export class AppModule { }

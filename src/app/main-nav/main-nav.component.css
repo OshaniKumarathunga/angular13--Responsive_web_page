@@ -1,14 +1,23 @@
 .spacer {
     flex: 1 1 auto;
 }
+.logo{
+    height: 59px;
+    width: auto;
+    margin-top: 12px;
+}
 mat-toolbar{
     z-index: 999;
     box-shadow: #a7a7a7 0px 0px 5px;
+    background-color: #e1eeea !important;
     
-    color: aliceblue;
+    color: #065560 !important;
 }
 a.mat-raised-button{
     margin-left: 15px;
+    border-radius: 12px !important;
+    background-color: #00be99 ;
+    color: white;
 }
 
 button{
